@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="descktop.css" />
+    <title>Frontend Mentor | Browser extensions manager UI</title>
+  </head>
+  <body>
+    <header class="container-navigation" >
+      <div class="cont-atualizacao">
+        <img
+          src="./assets/images/logo.svg"
+          alt="logo"
+          class="logo"
+          style="width: 11em"
+        />
+
+        <button class="dark_Ligth" id="btnTema">
+          <img src="./assets/images/icon-moon.svg" alt="moon image" id="moon">
+          <img src="./assets/images/icon-sun.svg" alt="sun image" id="sun">
+        </button>
+      </div>
+    </header>
+
+    <main class="container-main">
+      <section class="btnNavigation">
+
+        <div class="navigationBtn">
+          <h1 class="title">Extensions List</h1>
+
+          <div class="btnClassificacao">
+            <button class="btn" id="allInfo">All</button>
+            <button class="btn" id="activeInfo">Active</button>
+            <button class="btn" id="inactiveInfo">Inactive</button>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="container-cards">
+        <div class="cards-content">
+          <!--Card 1-->
+          <div class="card">
+            <div class="card-Info">
+              <img src="./assets/images/logo-devlens.svg" class="img-card" />
+
+              <div class="card-text">
+                <h4 class="title">DevLens</h4>
+
+                <p class="text">
+                  Quickly inspect page layouts and visualize element boundaries.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 2-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img src="./assets/images/logo-style-spy.svg" class="img-card" />
+
+              <div class="card-text">
+                <h4 class="title">StyleSpy</h4>
+
+                <p class="text">
+                  Instantly analyze and copy CSS from any webpage element.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 3-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-speed-boost.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">SpeedBoost</h4>
+
+                <p class="text">
+                  Optimizes browser resource usage to accelerate page loading.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 4-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-json-wizard.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">JSONWizard</h4>
+
+                <p class="text">
+                  Formats, validates, and prettifies JSON responses in-browser.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 5-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-tab-master-pro.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">TabMaster Pro</h4>
+
+                <p class="text">Organizes browser tabs into groups sessions.</p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 6-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-viewport-buddy.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">ViewportBuddy</h4>
+
+                <p class="text">
+                  Simulates various screen resolutions directly within the
+                  browser.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 7-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-markup-notes.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">Markup Notes</h4>
+
+                <p class="text">
+                  Enables annotation and notes directly onto webpages for
+                  collaborative debugging.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 8-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-grid-guides.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">GridGuides</h4>
+
+                <p class="text">
+                  Overlay customizable grids and alingnment guides on any
+                  webpage.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 9-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-palette-picker.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">Palette Picker</h4>
+
+                <p class="text">
+                  Instantly extracts color palettes from any webpage.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 10-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-link-checker.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">LinkChecker</h4>
+
+                <p class="text">
+                  Scans and highlights broken links on any page.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 11-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-dom-snapshot.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">DOM Snapshot</h4>
+
+                <p class="text">Capture and export DOM structures quickly.</p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+
+          <!--Card 12-->
+          <div class="card card-dark">
+            <div class="card-Info">
+              <img
+                src="./assets/images/logo-console-plus.svg"
+                class="img-card"
+              />
+
+              <div class="card-text">
+                <h4 class="title">ConsolePlus</h4>
+
+                <p class="text">
+                  Enhanced developer console with advanced filtering and
+                  logging.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-card">
+              <button class="card-btn">Remove</button>
+              <button class="left-rigth"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/jamillyds">SAKAMOTO</a>.
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

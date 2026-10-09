@@ -1,0 +1,74 @@
+/* Descktop */
+@media (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container-navigation {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont-atualizacao {
+    width: 80%;
+  }
+
+  .container-main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnNavigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
+
+  .navigationBtn {
+    width: 62em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigationBtn .title {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 0.6em 1em;
+    border-radius: 2em;
+    font-size: 1.2rem;
+  }
+
+  .container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .cards-content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0em 0.8em;
+    align-content: start;
+  }
+
+  .attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12em;
+  }
+}
